@@ -4,7 +4,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: hsl(0, 0%, 95%);
+    background: linear-gradient(to left ,hsl(0, 0%, 10%),hsl(39, 100%, 60%));
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: center;
@@ -21,7 +21,7 @@ body{
     overflow: hidden;
     border-color: black;
     box-sizing: border-box;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    box-shadow: 5px 5px 8px rgba(24, 24, 24, 0.2);
 
 }
 #display{

@@ -1,19 +1,17 @@
-const display = document.getElementById("display");
-
-function appendtoDisplay(input){
-    display.value += input ;
-
+"use strict";
+const display = document.getElementById(`display`);
+function appendtoDisplay(input) {
+    display.value += input;
 }
 
-function cleardisplay (){
-    display.value = "" ;
+function cleardisplay() {
+    display.value = "";
 }
-
-function  calculate (){
-    try{
-        display.value  = eval(display.value)
+function calculate() {
+    try {
+        display.value = eval(display.value);
     }
-    catch(error){
-        display.value = " error "
+    catch (error) {
+        display.value = " error ";
     }
 }
