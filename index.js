@@ -14,3 +14,5 @@ function calculator() {
         DISPLAY.value = " error ";
     }
 }
+//let extraSkill = document.createElement('input');
+//`document.querrySelector("SkillDiv").appendChild(extraSkill)

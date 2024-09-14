@@ -20,3 +20,5 @@ function calculator () {
     }
 }
 
+//let extraSkill = document.createElement('input');
+//`document.querrySelector("SkillDiv").appendChild(extraSkill)
